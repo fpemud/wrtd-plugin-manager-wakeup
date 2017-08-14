@@ -1,0 +1,26 @@
+################################################################################
+# channel: advhost
+# host2gateway: command: wakeup
+################################################################################
+#
+# Request:
+# {
+#     "command": "wakeup",
+#     "data": {
+#         "hostname": "abcd",
+#     },
+# }
+# Response:
+# {
+#     "return": {
+#     },
+# }
+# Response:
+# {
+#     "error": "wakup timeout",
+# }
+# Response:
+# {
+#     "error": "network error",
+# }
+#
